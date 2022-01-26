@@ -581,7 +581,7 @@ function refreshWeapon1()
   end
 
 end
-loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/BloxFruit/main/Functions.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TizCof/vinhuchi/main/functions/script.lua"))()
 
 --Do Functions
 local mt = getrawmetatable(game)
@@ -695,7 +695,7 @@ for i,v in pairs(require(game:GetService("ReplicatedStorage").Quests)) do
    end
 end
 --Ui
-loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/Island_Game/main/version.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TizCof/vinhuchi/main/version/script.lua"))()
 lib:Notify("Island","Ui Made by Denosaur")
 wait(1)
 lib:Notify("Island","Loading Functions + Data")
@@ -3691,7 +3691,7 @@ end)
 LocalPlayerSection:addSlider("Zoom Distance",0,500,10000,function(Value)
    game.Players.LocalPlayer.CameraMaxZoomDistance = Value
 end)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/BloxFruit/main/AutoNextIsland.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TizCof/vinhuchi/main/autonextisland/script.lua"))()
 
 local Dungeon = lib:addPage("Dungeon")
 local Chip = Dungeon:addSection("Chip")
